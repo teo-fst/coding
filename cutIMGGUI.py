@@ -66,7 +66,7 @@ def taglia_immagine_con_overlap(argument):
                 # Salva il pezzo tagliato
                 grid = grid_img.resize((1123,794))
                 # Salvo il pezzo tagliato
-                grid_path = f'./grid_{i+1}{j+1}.jpg'
+                grid_path = f'C:/Users/canav/Documents/fototavole/grid_{i+1}{j+1}.jpg'
                 grid.save(grid_path, dpi=(300,300))
                 grid_images_paths.append(grid_path)
         return grid_images_paths
